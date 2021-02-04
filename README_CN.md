@@ -39,3 +39,37 @@ Trojan 服务端监听 443 端口，对正常来路的 https 请求，Trojan 服
 ## 提示
 
 考虑到各种未知状况，如果构建过程中遇到任何问题可以在`issue`中提出。
+
+
+## 安装Docker
+
+* 添加 Docker 软件源
+
+```bash 
+sudo apt-get update
+```
+```bash
+sudo apt-get install apt-transport-https ca-certificates  curl software-properties-common
+curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
+```
+```bash
+sudo add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu $(lsb_release -cs) stable"
+```
+
+* 安装 Docker CE（社区版）
+```bash
+sudo apt-get update -y
+sudo apt-get install docker-ce -y
+```
+
+* 安装 Docker-compose 容器编排工具
+```bash
+sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+```
+```bash
+sudo chmod +x /usr/local/bin/docker-compose
+```
+```bash
+docker-compose --version
+```
+
