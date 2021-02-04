@@ -1,6 +1,6 @@
 # trojan-caddy-docker-compose
 
-[中文文档](https://github.com/FaithPatrick/trojan-caddy-docker-compose/blob/master/README_CN.md)
+[中文文档](https://github.com/xiawang1024/docker-trojan/blob/master/README_CN.md)
 
 Trojan server and Caddy integration with Docker compose。
 
