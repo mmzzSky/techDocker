@@ -73,3 +73,12 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
+
+## Docker-compose error 解决
+
+```
+sudo gpasswd -a ${USER} docker
+sudo su
+sudo xiawang1024
+
+```
