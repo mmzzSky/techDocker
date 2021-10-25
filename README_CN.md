@@ -50,15 +50,22 @@ sudo apt-get update
 ```
 ```bash
 sudo apt-get install apt-transport-https ca-certificates  curl software-properties-common
+```
+```bash
 curl -fsSL https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
 ```
+
 ```bash
 sudo add-apt-repository "deb [arch=amd64] https://mirrors.ustc.edu.cn/docker-ce/linux/ubuntu $(lsb_release -cs) stable"
 ```
 
 * 安装 Docker CE（社区版）
+
 ```bash
 sudo apt-get update -y
+```
+
+```bash
 sudo apt-get install docker-ce -y
 ```
 
