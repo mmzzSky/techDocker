@@ -2,7 +2,7 @@ version: '3'
 
 services:
   trojan:
-      build: trojangfw/trojan:latest
+      image: xiawang1024/trojan:five
       ports:
         - "443:443"
       volumes:
