@@ -1,10 +1,10 @@
-zz.camilleking.space:80 {
+zz.melody122.xyz:80 {
     root /usr/src/trojan
     log /usr/src/caddy.log
     index index.html
 }
 
-zz.camilleking.space:443 {
+zz.melody122.xyz:443 {
     root /usr/src/trojan
     log /usr/src/caddy.log
     index index.html
