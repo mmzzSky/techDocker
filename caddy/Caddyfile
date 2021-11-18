@@ -1,10 +1,10 @@
-dd.camilleKing.space:80 {
+zz.camilleKing.space:80 {
     root /usr/src/trojan
     log /usr/src/caddy.log
     index index.html
 }
 
-dd.camilleKing.space:443 {
+zz.camilleKing.space:443 {
     root /usr/src/trojan
     log /usr/src/caddy.log
     index index.html
