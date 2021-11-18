@@ -5,12 +5,12 @@
     "remote_addr": "__DOCKER_CADDY__",
     "remote_port": 80,
     "password": [
-        "Family1223."
+        "family1223"
     ],
     "log_level": 1,
     "ssl": {
-        "cert": "/ssl/zz.camilleking.space/zz.camilleking.space.crt",
-        "key": "/ssl/zz.camilleking.space/zz.camilleking.space.key",
+        "cert": "/ssl/zz.melody122.xyz/zz.melody122.xyz.crt",
+        "key": "/ssl/zz.melody122.xyz/zz.melody122.xyz.key",
         "key_password": "",
         "cipher_tls13":"TLS_AES_128_GCM_SHA256:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_256_GCM_SHA384",
         "prefer_server_cipher": true,
